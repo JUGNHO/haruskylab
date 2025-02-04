@@ -915,6 +915,19 @@ p {
     -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
     -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
     box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
+    
+    /* 2024.03.15 SyPark */
+    .service-content p{
+      font-size: 13px;
+	  font-weight: 400;
+	  line-height: 28px;
+	  color: #8a8fa3;
+	  margin: 0px;
+	  padding: 10px }
+	  @media (max-width: 767px) {
+	    p {
+	      font-size: 12px; } }
+    }
 
 /*===========================
     4.CALL TO ACTION css 
@@ -1162,6 +1175,12 @@ p {
     .single-pricing.active .pricing-body .pricing-btn .main-btn:hover {
       background-color: #fff;
       color: #009ad5; }
+      
+/* 24.02.29 SyPark */
+.single-pricing:hover {
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+    -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
+    box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
 
 /*===========================
        7.BLOG css 
@@ -1344,7 +1363,8 @@ p.form-message.success, p.form-message.error {
       padding-bottom: 80px; } }
 
 .footer-content p {
-  color: #fff;
+  /* color: #fff; */
+  color: #bebebe;
   margin-top: 35px; }
 .footer-content ul {
   margin-top: 35px; }
